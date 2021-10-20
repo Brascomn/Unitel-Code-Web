@@ -1,0 +1,89 @@
+/*   
+Tarefa: contruir um menu com links e efeitos nos links, alinhando usando o flexbox
+
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: darkorange;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    background-color: darkorange;
+    color:#fff;
+}
+
+nav{
+    width: 60%;
+    padding: 1%;
+    /*display: inline-block;*/
+}
+
+#logo-area{
+    background-color: red;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    /*display: inline-block;*/
+}
+
+ul{
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+
+}
+
+li{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#text-main{
+    color: red;
+}
+
+#noticias, #forum-unitel{
+    background-color: #ededed;
+    padding: 30px;
+    border: 2px solid #555;
+}
+
+.itens-noticias{
+    color: rgb(117, 50, 224);
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.itens-noticias::after{
+    content: "um texto ficticio";
+    color: #555;
+}
+
+.itens-noticias:hover{
+    color: #222;
+    font-size: 20px;
+}
+
+
+
+

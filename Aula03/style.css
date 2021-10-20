@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    /* Quando damos um flex box em um pai, podemos usar as outras nos filhos com outras propriedades Flex */
+    width: 100%;
+    padding: 1%;
+    background-color: aquamarine;
+    color: #000;
+}
+nav{
+    width: 60%;
+    padding: 1%;
+    display: inline-block;
+}
+
+div{
+    width: 30%;
+    display: inline-block;
+}
+/* div img{
+    width: 320px;
+    padding:;
+    margin: auto;
+} */
+ul{
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 30px;
+}
