@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+ li{
+    display: inline-flex;
+    float: right;
+    padding: 30px;
+    background-color: aqua;
+}
+.logo{
+    display: inline-flex;
+    float: left;
+    padding: 30px;
+    background-color: rgb(46, 75, 75);
+    padding: 30px;
+}
