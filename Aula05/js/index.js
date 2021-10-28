@@ -67,7 +67,7 @@ function visibilidade(){
 }
 
 function trocarImg(){
-    img.src = '../img/img-2.jpeg';
+    img.src = 'img/img-2.jpeg';
 
 }
 
