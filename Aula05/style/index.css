@@ -11,17 +11,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 
 }
-section{
 
-    background-color: white;
-    border-radius: 10px; /*Bordas  */
-    padding: 100px; /* Altura*/
-    width: 600px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgb(243, 243, 243);
-}
 input[type="text"]{
 
     margin-top: 30px;
@@ -32,7 +25,6 @@ input[type="text"]{
 h1, h2{
     margin-bottom: 20px;
 }
-
 
 #form{
     text-align: center;
@@ -48,4 +40,35 @@ button{
     width: 100px;
     border: 1px solid #222;
     cursor: pointer;
+}
+
+.container-btn{
+    margin-top: 50px;
+}
+
+#btn-laranja{
+    background-color: darkorange;
+}
+#btn-verde{
+    background-color: rgb(52, 216, 120);
+}
+#btn-azul{
+    background-color: rgb(14, 159, 255);
+}
+#btn-animar, #btn-mostrar{
+    background-color: rgb(18, 21, 27);
+}
+
+img{
+    width: 300px;
+}
+
+.expandir{
+    width: 1000px !important;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.visibilidade{
+    display: none;
 }
